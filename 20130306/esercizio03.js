@@ -6,10 +6,11 @@ string1="";
 for(i=1;i<11;i++){
 for(z=1;z<11;z++){
 	if(i===z)
-string1=string1.concat("1");
-else string1=string.concat("0");
+    string1=string1.concat("1");
+    else 
+	string1=string.concat("0");
 
-if(z!==10){
+if(z!==10)
 string1=string1.concat(", ");
 }
 console.log(string1);
