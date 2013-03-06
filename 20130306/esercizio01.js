@@ -8,6 +8,10 @@ for(i=1;i<101;i++){
 		console.log(string1);
 		string1="";
 	}
-	else string1=string1.concat(i);
+	else{
+
+	string1=string1.concat(i);
+	string1=string1.concat("");
+}
 }
 	
