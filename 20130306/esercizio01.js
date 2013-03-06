@@ -1,9 +1,11 @@
 var i;
-
+var string1;
 for(i=1;i<101;i++){
 	if((i%10)===0){
-		console.log(i+"\n");
+		i.concat(string1);
+		console.log(string1);
+		string1="";
 	}
-	else 
-		console.log(i+"");
+	else i.concat(string1);
 }
+	
