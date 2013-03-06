@@ -11,7 +11,7 @@ for(i=1;i<101;i++){
 	else{
 
 	string1=string1.concat(i);
-	string1=string1.concat("");
+	string1=string1.concat(" ");
 }
 }
 	
