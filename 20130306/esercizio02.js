@@ -12,7 +12,8 @@ string1=string1.concat(", ");
 else 
 string1=string1.concat(",");
 }
+}
 console.log(string1);
 string1="";
-}	
+
 }
