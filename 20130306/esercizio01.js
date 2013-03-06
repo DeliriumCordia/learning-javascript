@@ -1,17 +1,13 @@
 var i;
+var z;
 var string1;
 string1="";
 
-for(i=1;i<101;i++){
-	if((i%10)===0){
-		string1=string1.concat(i);
-		console.log(string1);
-		string1="";
-	}
-	else{
-
-	string1=string1.concat(i);
-	string1=string1.concat(" ");
+for(i=1;i<11;i++){
+for(z=1;z<11;z++){
+string1=string1.concat(i*z);
+string1=string1.concat(" ");
 }
-}
-	
+console.log(string1);
+string1="";
+}	
