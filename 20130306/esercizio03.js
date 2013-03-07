@@ -11,9 +11,9 @@ for(z=1;z<11;z++){
 	string1=string1.concat("0");
 
 if(z!==10)
-string1=string1.concat(", ");
+string1=string1.concat(",\t");
+}
+string1=string1.concat("\n");
 }
 console.log(string1);
-string1="";
 
-}
