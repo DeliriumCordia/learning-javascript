@@ -8,6 +8,6 @@ for(z=1;z<11;z++){
 string1=string1.concat(i*z);
 string1=string1.concat("\t");
 }
-console.log(string1);
-string1="";
-}	
+string1=string1.concat("\n");
+}
+console.log(string1);	
